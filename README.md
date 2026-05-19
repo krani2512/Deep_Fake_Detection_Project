@@ -1,7 +1,7 @@
 # DeepFake AI Detection Framework
 ### Intelligent System for Identification and Authentication of Manipulated Visual Content
 
-## 📌 Overview
+##  Overview
 Deepfakes are AI-generated or manipulated images and videos that can appear highly realistic and create serious challenges in media authenticity and digital security. Traditional CNN-based methods often struggle to detect subtle manipulations.
 
 This project proposes a hybrid DeepFake detection framework using Capsule Networks and Siamese Networks to identify manipulated visual content. The Capsule Network captures spatial relationships and facial feature hierarchies, while the Siamese Network compares suspicious media with authentic references to detect inconsistencies.
@@ -10,7 +10,7 @@ The proposed model improves detection performance and enhances trust in digital 
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Detect manipulated images and videos accurately
 - Capture structural inconsistencies in facial features
@@ -20,7 +20,7 @@ The proposed model improves detection performance and enhances trust in digital 
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python
 - TensorFlow
@@ -33,7 +33,7 @@ The proposed model improves detection performance and enhances trust in digital 
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The model uses the DeepFake Detection Challenge (DFDC) dataset from Kaggle.
 
@@ -50,7 +50,7 @@ https://www.kaggle.com/c/deepfake-detection-challenge
 
 ---
 
-## ⚙ Methodology
+##  Methodology
 
 ### Step 1: Preprocessing
 - Video frame extraction
@@ -73,7 +73,7 @@ https://www.kaggle.com/c/deepfake-detection-challenge
 
 ---
 
-## 🏗 System Architecture
+##  System Architecture
 
 Input Video
 ↓
@@ -93,7 +93,7 @@ Prediction (Real / Fake)
 
 ---
 
-## 📊 Experimental Setup
+##  Experimental Setup
 
 - Learning Rate: 0.001
 - Batch Size: 32
@@ -103,7 +103,7 @@ Prediction (Real / Fake)
 
 ---
 
-## 📈 Results
+##  Results
 
 | Model | Accuracy | Precision | Recall | F1 Score | AUC |
 |---------|----------|-----------|---------|-----------|------|
@@ -114,7 +114,7 @@ The proposed Capsule-Siamese model achieved superior performance compared to tra
 
 ---
 
-## ✅ Advantages
+##  Advantages
 
 - Better feature representation
 - High detection accuracy
@@ -124,7 +124,7 @@ The proposed Capsule-Siamese model achieved superior performance compared to tra
 
 ---
 
-## ⚠ Limitations
+##  Limitations
 
 - High computational complexity
 - Requires larger datasets
@@ -132,7 +132,7 @@ The proposed Capsule-Siamese model achieved superior performance compared to tra
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - Audio + Video multimodal detection
 - Transformer-based architecture
@@ -141,7 +141,7 @@ The proposed Capsule-Siamese model achieved superior performance compared to tra
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
 Kraniksa W  
 Dhanavidhya J  
@@ -153,6 +153,6 @@ Muthayammal College of Engineering
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed for academic and educational purposes.
