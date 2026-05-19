@@ -1,0 +1,7 @@
+pip install flask 
+pip install mysql-connector opencv-python imagehash seaborn scikit-image tensorflow==2.12
+pip install torch torchvision
+pip install dlib 
+pip install face_recognition
+pip install face-rocognizer
+pip install gunicorn pyttsx3

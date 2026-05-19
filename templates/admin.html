@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Training Phase – Load Data</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Segoe UI, Arial;
+  background:#f4f6f9;
+}
+
+.topbar{
+  background:#82c419;
+  color:#fff;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.topbar h2{
+  margin:0;
+  font-size:22px;
+}
+
+.menu a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:25px;
+  font-weight:500;
+}
+
+.container{
+  padding:35px;
+}
+
+.card{
+  background:#fff;
+  padding:30px;
+  border-radius:6px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+  margin-bottom:30px;
+}
+
+h3{
+  color:#2c3e50;
+}
+
+.action-btn{
+  background:#82c419;
+  border:none;
+  padding:12px 28px;
+  color:white;
+  font-size:15px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.action-btn:hover{
+  background:#6fae14;
+}
+
+.status{
+  margin-top:20px;
+  color:#555;
+  font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="topbar">
+  <h2>DeepFake Detection</h2>
+  <div class="menu">
+    <a href="/admin">Dashboard</a>
+    <a href="/logout">Logout</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Training Phase – Dataset Loading</h3>
+    <p>
+      This stage initializes the training process by loading facial images
+      and extracting frames from DeepFake videos. The collected data is
+      organized into Real and Fake classes.
+    </p>
+<p align="center">
+    <button class="action-btn">
+      Load Training Dataset
+    </button>
+</p>
+  </div>
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Load Dataset</title>
+<style>
+body{
+  margin:0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:#f4f6f9;
+}
+
+.topbar{
+  background:#82c419;
+  color:white;
+  padding:14px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.topbar h2{
+  margin:0;
+  font-size:22px;
+}
+
+.menu a{
+  color:white;
+  text-decoration:none;
+  margin-left:25px;
+  font-weight:500;
+}
+
+.menu a:hover{
+  text-decoration:underline;
+}
+
+.container{
+  padding:30px;
+}
+.card{
+  background:white;
+  padding:25px;
+  border-radius:6px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom:25px;
+}
+h3{
+  color:#2c3e50;
+}
+</style>
+
+</head>
+<body>
+
+<!-- MENU -->
+<div class="topbar">
+  <h2>DeepFake Detection – Admin</h2>
+  <div class="menu">
+    <a href="/admin">Dashboard</a>
+    <a href="/logout">Logout</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Dataset Loading</h3>
+    <p>
+      This step loads facial images and videos. Video files are converted
+      into frames and stored as image samples for training.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Accepted Inputs</h3>
+    <table border="1" width="100%" cellpadding="8">
+      <tr>
+        <th>Input Type</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Images</td>
+        <td>JPEG, PNG face images (Real / Fake)</td>
+      </tr>
+      <tr>
+        <td>Videos</td>
+        <td>MP4 videos converted into frames</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Output</h3>
+    <p>
+      Extracted images are stored into categorized dataset folders
+      for further processing.
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>

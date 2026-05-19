@@ -1,0 +1,10 @@
+model/df_model.pt
+static/uploaded_files/
+dataset/
+static/dataset/
+uploaded_files/
+*.pt
+*.mp4
+*.zip
+*.whl
+__pycache__/
